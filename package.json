@@ -1,0 +1,23 @@
+{
+  "name": "static-website-template",
+  "version": "1.0.0",
+  "description": "Project structure for the integration of web applications using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eredost/static-website-template.git"
+  },
+  "keywords": [
+    "template",
+    "website"
+  ],
+  "author": "Michaël Coutin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eredost/static-website-template/issues"
+  },
+  "homepage": "https://github.com/Eredost/static-website-template#readme"
+}
