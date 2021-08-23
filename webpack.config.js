@@ -5,7 +5,8 @@ module.exports = {
     entry: './src/main.js',
     output: {
         filename: 'js/[name].js',
-        path: path.resolve(__dirname, 'public')
+        path: path.resolve(__dirname, 'public/build'),
+        clean: true,
     },
     module: {
         rules: [
