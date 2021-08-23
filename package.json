@@ -2,7 +2,7 @@
   "name": "static-website-template",
   "version": "1.0.0",
   "description": "Project structure for the integration of web applications using Webpack",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Eredost/static-website-template/issues"
   },
-  "homepage": "https://github.com/Eredost/static-website-template#readme"
+  "homepage": "https://github.com/Eredost/static-website-template#readme",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
 }
