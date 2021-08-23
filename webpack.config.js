@@ -4,6 +4,7 @@ const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: './src/main.js',
     output: {
+        publicPath: '/build/',
         filename: 'js/[name].js',
         path: path.resolve(__dirname, 'public/build'),
         clean: true,
@@ -30,5 +31,11 @@ module.exports = {
         new MiniCSSExtractPlugin({
             filename: '[name].css',
         }),
-    ]
+    ],
+    devServer: {
+        static: './public',
+        host: 'localhost',
+        port: '8080',
+        open: true,
+    }
 }

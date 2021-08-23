@@ -4,6 +4,7 @@
   "description": "Project structure for the integration of web applications using Webpack",
   "private": true,
   "scripts": {
+    "start": "webpack serve --mode development --color --progress",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -12,7 +13,7 @@
   },
   "keywords": [
     "template",
-    "website"
+    "webpack"
   ],
   "author": "Michaël Coutin",
   "license": "MIT",
@@ -30,7 +31,8 @@
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0"
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
   },
   "postcss": {
     "plugins": {
